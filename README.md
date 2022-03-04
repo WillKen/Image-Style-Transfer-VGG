@@ -38,7 +38,7 @@ The style images were Chinese painting provided by [alicex2020](https://github.c
 **Example result**
 
 ---
-| content_img |                                |       ![](./example/wuzhen.jpg)       |
+| content_img |                                |       <img src="./example/wuzhen.jpg" width = "400" height = "400" alt="" align=center />     |
 | :---------: | :----------------------------: | :-----------------------------------: |
-|   style_1   |  ![](./example/harvard_1.jpg)  |  ![](./example/wuzhen-harvard_1.jpg)  |
-|   style_2   | ![](./example/harvard_100.jpg) | ![](./example/wuzhen-harvard_100.jpg) |
+|   style_1   |  <img src="./example/harvard_1.jpg" width = "400" height = "400" alt="" align=center />  |  <img src="./example/wuzhen-harvard_1.jpg" width = "400" height = "400" alt="" align=center />  |
+|   style_2   | <img src="./example/harvard_100.jpg" width = "400" height = "400" alt="" align=center /> | <img src="./example/wuzhen-harvard_100.jpg" width = "400" height = "400" alt="" align=center /> |
