@@ -1,0 +1,20 @@
+## content image and style image
+content_img: 'snow.jpg'
+style_img: 'harvard_1.jpg'
+img_height: 400 # height of content and style images
+
+## weights for loss functions
+alpha: 1.0e+7 # weight for content loss
+beta: 3.0e+3 # weight for style loss
+gamma: 1.0e+0 # weight for smooth loss
+
+## init method settings
+init_method: 'content' # choosse the init method for result img ['content', 'style', 'gaussian_noise', 'blend']
+content_bw: 1 # blend weight for content images used in blend init method
+style_bw: 0.2 # blend weight for style images used in blend init method
+
+## network and trainging settings
+net: 'vgg16' # choosse vgg net ['vgg19', 'vgg16']
+use_relu: True # use relu or conv to get features
+max_iter: 1000
+save_progress: -1 # save intermediate results after every (save_progress) iteration (-1: only save the final result) 
